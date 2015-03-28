@@ -1,0 +1,62 @@
+body {
+  background: url("bg.jpg") no-repeat top left;
+}
+.btn-toggle-left {
+  float: left;
+  width: 150px;
+  height: 150px;
+  opacity: 0;
+}
+.btn-toggle-right {
+  float: right;
+  width: 150px;
+  height: 150px;
+  opacity: 0;
+}
+#logo img {
+  max-width: 160px;
+  max-height: 160px;
+}
+.logo-item {
+  display: inline-block;
+  /*float: left;*/
+}
+.logo-wrapper {
+  text-align: center;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 0 rgba(220, 220, 220, 1);
+}
+.wheel-wrapper {
+  text-align: center;
+}
+.btn-wrapper {
+  position: fixed;
+  height: 120px;
+  width: 100%;
+  text-align: center;
+  bottom: 0;
+}
+.btn-spin {
+  font-size: 60px;
+  width: 60%;
+  box-shadow: 0 5px 0 rgba(165, 165, 165, 1);
+  position: relative;
+  top: 0;
+}
+.btn-spin:active {
+  top: 2px;
+  font-size: 60px;
+  width: 60%;
+  box-shadow: 0 3px 0 rgba(165, 165, 165, 1);
+}
+.list {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+.list textarea {
+  height: 200px;
+}
+.list-hide {
+  /*display: none;*/
+}
